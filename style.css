@@ -48,6 +48,28 @@ header nav a:hover {
   height: 200px;
 }
 
+.section {
+  display: flex;
+  margin: 20px 50px;
+  align-items: center;
+}
+
+.title {
+  font-size: 35px;
+  color: #af9b9b;
+  width: 25%;
+
+
+
+
+}
+
+.content {
+  width: 75%;
+  padding: 20px;
+  border-left: #af9b9b solid 3px
+}
+
 
 @media screen and (max-width: 600px) {
   header nav {
