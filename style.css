@@ -35,7 +35,17 @@ header nav a {
   text-decoration: none;
   color: #af9b9b;
   border-bottom: 4px solid #af9b9b;
+}
 
+header nav a:hover {
+  font-size: 150%;
+  color: #524747;
+  transition: 0.3s;
+}
+
+.background-image {
+  width: 100%;
+  height: 200px;
 }
 
 
