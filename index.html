@@ -4,7 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@430&family=Baloo+Tammudu+2&family=Viaoda+Libre&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./style.css">
+
   <title>Eddie Yeung Portfolio</title>
 </head>
 <body>
@@ -13,10 +18,10 @@
     <img src="./images/eddieyeung.JPG" alt="Eddie Yeung">
     <h1>Eddie Yeung</h1>
     <nav>
-      <a href="#about-me">About Me</a>
-      <a href="#work">Work</a>
-      <a href="#contact-me">Contact Me</a>
-      <a href="./resume/EddieYeungResume.pdf" target="_blank">Resume</a>
+      <a class="link" href="#about-me">About Me</a>
+      <a class="link" href="#work">Work</a>
+      <a class="link" href="#contact-me">Contact Me</a>
+      <a class="link" href="./resume/EddieYeungResume.pdf" target="_blank">Resume</a>
     </nav>
   </header>
 
@@ -31,15 +36,57 @@
   </section>
 
   <!-- Work section -->
-  <section>
+  <section class="section">
     <h2 class="title" id="work">Work</h2>
+    <div class="work-content">
+
+
+      <a class="work-item1" href="#" target="_blank">
+        <div class="work1">
+          <h4>work1</h4>
+          <h3>html/css</h3>
+        </div>
+      </a>
+
+
+      <a class="work-item2" href="#" target="_blank">
+        <div class="work2">
+          <h4>work2</h4>
+          <h3>html2/css2</h3>
+        </div>
+      </a>
+
+      <a class="work-item3" href="#" target="_blank">
+        <div class="work3">
+          <h4>work3</h4>
+          <h3>html3/3css333</h3>
+        </div>
+
+        <a class="work-item4" href="#" target="_blank">
+          <div class="work4">
+            <h4>work4</h4>
+            <h3>html4/444444</h3>
+          </div>
+
+          <a class="work-item5" href="#" target="_blank">
+            <div class="work3">
+              <h4>work5</h4>
+              <h3>html5/55555</h3>
+            </div>
+      </a>
+
+
+
+    </div>
   </section>
+
+
 
   <!-- contact me section -->
   <section class="section">
     <h2 class="title" id="contact-me">Contact Me</h2>
-    <nav class="contact-link content">
-      <a class="line" href="tel:5555555555">555.555.5555</a>
+    <nav class=" content contact-me">
+      <a href="tel:5555555555">555.555.5555</a>
       <a href="mailto: eycs0317@gmail.com">eycs0317@gmail.com</a>
       <a href="https://github.com/eycs0317" target="_blank">GitHub</a>
       <a href="https://ucb.bootcampcontent.com/UCB-Coding-Bootcamp" target="_blank">GitLab</a>

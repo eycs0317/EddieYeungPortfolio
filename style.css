@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
 header {
   display: flex;
   flex-wrap: wrap;
@@ -28,7 +32,7 @@ header h1 {
 header nav {
   display: flex;
 }
-header nav a {
+.link {
   font-size: 19px;
   padding: 0 10px;
   margin-right: 4px;
@@ -37,7 +41,7 @@ header nav a {
   border-bottom: 4px solid #af9b9b;
 }
 
-header nav a:hover {
+.link:hover {
   font-size: 150%;
   color: #524747;
   transition: 0.3s;
@@ -58,10 +62,6 @@ header nav a:hover {
   font-size: 35px;
   color: #af9b9b;
   width: 25%;
-
-
-
-
 }
 
 .content {
@@ -70,9 +70,77 @@ header nav a:hover {
   border-left: #af9b9b solid 3px
 }
 
+/* Work section */
+.work-content {
+  width: 75%;
+  padding: 20px;
+  border-left: #af9b9b solid 3px;
+  display: grid;
+  grid-gap:10px;
+
+  grid-template-areas:
+  'first-row first-row '
+  'second-row third-row'
+  'forth-row fifth-row';
+}
+
+.work-item1 {
+  background-image: url(./images/google.png);
+  grid-area: first-row;
+  height: 300px;
+  background-size: cover;
+}
+.work-item2 {
+  background-image: url(./images/amazon.png);
+  grid-area: second-row;
+  height: 150px;
+  background-size: cover;
+  /* background-position: center; */
+}
+.work-item3 {
+  background-image: url(./images/apple.png);
+  grid-area: third-row;
+  height: 150px;
+  background-size: cover;
+}
+.work-item4 {
+  background-image: url(./images/netflix.png);
+  background-size: cover;
+  grid-area: forth-row;
+  height: 150px;
+}
+.work-item5 {
+  background-image: url(./images/facebook.png);
+  background-size: cover;
+  grid-area: fifth-row;
+  height: 150px;
+}
+
+
+
+
+
+
+
+/* contact me section */
+.contact-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+section .content a:hover {
+  font-size: 110%;
+  color: #524747;
+  transition: 0.3s;
+}
+
+
+
 
 @media screen and (max-width: 600px) {
-  header nav {
+  header nav, .section, .content-me {
     flex-direction: column;
   }
   header img {
@@ -81,7 +149,7 @@ header nav a:hover {
 }
 
 @media screen and (max-width: 500px) {
-  header {
+  header , .contact-me {
     flex-direction: column;
   }
   header h1 {
