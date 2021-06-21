@@ -20,6 +20,5 @@ git clone https://github.com/eycs0317/EddieYeungPortfolio
 Eddie Yeung
 
 ## Example Images
-![example1]
-(https://github.com/eycs0317/EddieYeungPortfolio/blob/main/images/example1.png)
+![example1](./images/example1)
 
