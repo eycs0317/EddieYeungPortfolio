@@ -84,48 +84,47 @@ header nav {
   'forth-row fifth-row';
 }
 
+.work-items {
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 70%;
+}
+
+.work-items:hover {
+  opacity: 100%;
+  border: 2px solid #af9b9b;
+  transition: 0.1s;
+}
 .work-item1 {
   background-image: url(./images/google.png);
   grid-area: first-row;
-  height: 150px;
-  background-size: cover;
-  display: flex;
-  flex-wrap: wrap;
 }
+
 .work-item2 {
   background-image: url(./images/amazon.png);
   grid-area: second-row;
-  height: 150px;
-  background-size: cover;
-  display: flex;
-  flex-wrap: wrap;
 }
+
 .work-item3 {
   background-image: url(./images/apple.png);
   grid-area: third-row;
-  height: 150px;
-  background-size: cover;
-  display: flex;
-  flex-wrap: wrap;
-}
-.work-item4 {
-  background-image: url(./images/netflix.png);
-  background-size: cover;
-  grid-area: forth-row;
-  height: 150px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.work-item5 {
-  background-image: url(./images/facebook.png);
-  background-size: cover;
-  grid-area: fifth-row;
-  height: 150px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
-.work1-tag, .work2-tag , .work3-tag, .work4-tag,.work5-tag {
+.work-item4 {
+  background-image: url(./images/netflix.png);
+  grid-area: forth-row;
+}
+
+.work-item5 {
+  background-image: url(./images/facebook.png);
+  grid-area: fifth-row;
+}
+
+
+
+.work-tag {
   background-color: #af9b9b;
   border: 2px solid black;
   display: flex;
@@ -166,7 +165,7 @@ section .content a:hover {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
   header nav, .section, .content-me {
     flex-direction: column;
   }
@@ -175,7 +174,7 @@ section .content a:hover {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   header , .contact-me {
     flex-direction: column;
   }
