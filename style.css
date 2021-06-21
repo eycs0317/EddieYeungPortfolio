@@ -5,13 +5,14 @@
 }
 
 :root {
-  --main-color: #af9b9b;
+  --main-color: #ada6a6;
 }
 
 body {
   font-family: 'Baloo Tammudu 2', cursive;
 }
 
+/* Header section */
 header {
   display: flex;
   flex-wrap: wrap;
@@ -36,6 +37,7 @@ header h1 {
 header nav {
   display: flex;
 }
+
 .link {
   font-size: 19px;
   padding: 0 10px;

@@ -16,7 +16,7 @@ git clone https://github.com/eycs0317/EddieYeungPortfolio
 
 [Github](https://github.com/eycs0317/EddieYeungPortfolio)
 
-[URL](https://eycs0317.github.io/EddieYeungPortfolio/)
+[Live URL](https://eycs0317.github.io/EddieYeungPortfolio/)
 
 ## Authors
 Eddie Yeung
