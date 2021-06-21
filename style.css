@@ -87,34 +87,61 @@ header nav {
 .work-item1 {
   background-image: url(./images/google.png);
   grid-area: first-row;
-  height: 300px;
+  height: 150px;
   background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
 }
 .work-item2 {
   background-image: url(./images/amazon.png);
   grid-area: second-row;
   height: 150px;
   background-size: cover;
-  /* background-position: center; */
+  display: flex;
+  flex-wrap: wrap;
 }
 .work-item3 {
   background-image: url(./images/apple.png);
   grid-area: third-row;
   height: 150px;
   background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
 }
 .work-item4 {
   background-image: url(./images/netflix.png);
   background-size: cover;
   grid-area: forth-row;
   height: 150px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .work-item5 {
   background-image: url(./images/facebook.png);
   background-size: cover;
   grid-area: fifth-row;
   height: 150px;
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.work1-tag, .work2-tag , .work3-tag, .work4-tag,.work5-tag {
+  background-color: #af9b9b;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 120px;
+  height: 65px;
+  padding: 10px;
+  padding-top: 20px;
+
+
+
+}
+
+
+
 
 
 
